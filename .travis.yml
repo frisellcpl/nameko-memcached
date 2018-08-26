@@ -1,0 +1,15 @@
+language: python
+services:
+    - memcached-server
+python:
+    - "2.7"
+    - "3.3"
+    - "3.4"
+    - "3.5"
+    - "3.6"
+install:
+    - "pip install -U setuptools"
+    - "python setup.py install"
+    - "pip install -U pytest mock"
+script:
+    - "py.test -v"
