@@ -1,5 +1,5 @@
 # nameko-memcached
-[![PyPI version](https://badge.fury.io/py/nameko-memcached.svg)](https://badge.fury.io/py/nameko-redis)
+[![PyPI version](https://badge.fury.io/py/nameko-memcached.svg)](https://badge.fury.io/py/nameko-memcached)
 [![Build Status](https://travis-ci.org/frisellcpl/nameko-memcached.svg?branch=master)](https://travis-ci.org/frisellcpl/nameko-memcached)
 
 Memcached dependency for nameko services. Note that this dependency uses \
